@@ -1746,17 +1746,17 @@ article:last-child {
 
 .image img {
 	display: block;
-	width: 100%;
+	width: 88%;
 }
 
 .image.fit {
 	display: block;
-	width: 100%;
+	width: 88%;
 }
 
 .image.featured {
 	display: block;
-	width: 100%;
+	width: 88%;
 	margin: 0 0 2em 0;
 }
 
@@ -2048,10 +2048,18 @@ ul.actions li:first-child {
 
 .box.style2 .image {
 	position: relative;
-	left: 2em;
-	top: 2em;
+	left: 3.5em;
+	top: 3.5em;
 	margin: -4em 0 4em -4em;
 	width: auto;
+}
+
+.box.style2 img {
+	border-radius: 1%;
+}
+
+.box p {
+	color: gray;
 }
 
 /* Icons */
@@ -2225,9 +2233,9 @@ body>article {
 }
 
 #top .image img {
-	border-radius: 5%;
-	background-color: #8ecae6;
-	padding: 2px;
+	border-radius: 10%;
+	background-color: #fff;
+	padding: 5px;
 }
 
 #top h1 {
