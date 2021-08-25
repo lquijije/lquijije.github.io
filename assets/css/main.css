@@ -2044,6 +2044,11 @@ ul.actions li:first-child {
 
 .box.style2 h3 {
 	margin-bottom: 0.25em;
+	color: #1c3643
+}
+
+.box.style2 h3 a {
+	color: #1c3643
 }
 
 .box.style2 .image {
